@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>学習記録アプリ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>学習記録アプリ</h1>
+  <form id="study-form">
+    <input type="date" id="date" required>
+    <input type="text" id="subject" placeholder="科目" required>
+    <input type="number" id="time" placeholder="時間（h）" required>
+    <textarea id="memo" placeholder="メモ（任意）"></textarea>
+    <button type="submit">記録する</button>
+  </form>
+
+  <h2>記録一覧</h2>
+  <ul id="record-list"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
