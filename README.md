@@ -1,6 +1,3 @@
 # GitCli
-README.mdに追記
-README.mdに追記(fetch merge)
-README.mdに追記(pu11)
-README.mdに追記(プルリク)
-"README.md�ɒǋL(�R�~�b�g���b�Z�[�W�C��)" 
+学習記録アプリ
+時、科目、時間、メモ
